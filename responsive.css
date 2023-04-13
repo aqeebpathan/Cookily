@@ -1,0 +1,162 @@
+@media (max-width: 725px) {
+  .nav__btn span {
+    display: none;
+  }
+}
+
+@media (max-width: 635px) {
+  .header__logo {
+    margin-left: 3rem;
+  }
+
+  /* .nav__btn span {
+    display: none;
+  } */
+}
+
+@media (max-width: 554px) {
+  header {
+    position: relative;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .header__logo {
+    margin-left: -3rem;
+  }
+
+  .nav {
+    position: absolute;
+    right: -20px;
+    margin-top: 1rem;
+  }
+
+  .nav__btn {
+    padding: 0 1rem;
+  }
+
+  .btn {
+    padding: 1.5rem;
+  }
+
+  .container {
+    grid-template-rows: 15rem minmax(100rem, auto);
+  }
+
+  .search {
+    margin: 2rem;
+  }
+
+  .search-results {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe__fig {
+    height: 25rem;
+  }
+
+  .recipe__details {
+    padding: 3rem 0;
+  }
+
+  .recipe__info:not(:last-child) {
+    margin: 1rem;
+  }
+
+  .btn--round {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+
+  .recipe__user-generated {
+    margin-right: 1rem;
+  }
+
+  .bookmarks {
+    top: 4.6rem;
+  }
+
+  .recipe__info {
+    font-size: no;
+  }
+
+  .recipe__title {
+    font-size: 2.5rem !important;
+  }
+
+  .recipe__ingredients {
+    padding: 2rem;
+  }
+
+  .add-recipe-window {
+    width: 42rem;
+    padding: 2rem;
+  }
+
+  .upload {
+    grid-template-columns: none;
+  }
+
+  .upload__column {
+    grid-template-columns: auto 1fr;
+  }
+
+  .own-recipe::before {
+    content: 'Upload your own recipe🍪';
+    font-size: 1.5rem;
+    display: block;
+  }
+
+  .recipe__user-generated svg {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+
+  #exit-icon {
+    position: absolute;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    fill: #f48982;
+    padding: 0.7em;
+    top: -52%;
+    left: 3%;
+  }
+
+  .recipe__title span {
+    padding: 1.3rem 1rem;
+  }
+
+  .search__field::placeholder {
+    color: #d3c7c3 !important;
+  }
+
+  .search__field {
+    width: 25rem !important;
+  }
+
+  .search {
+    padding-left: 1.6rem;
+  }
+
+  .search__icon {
+    margin-right: 0.5rem !important;
+  }
+
+  .btn svg {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+}
+
+@media (min-width: 554px) {
+  #exit-icon {
+    display: none;
+  }
+}
